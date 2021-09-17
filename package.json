@@ -1,0 +1,19 @@
+{
+    "name": "Image Manipulator",
+    "version": "1.0.0",
+    "description": "Canvas nodejs image manipulation",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "Amr Aboras",
+    "license": "MIT",
+    "dependencies": {
+        "canvas": "^2.8.0",
+        "canvas-constructor": "^5.0.1",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.12"
+    }
+}
