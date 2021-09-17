@@ -18,7 +18,7 @@ loadImage(ImageSource).then((image) => {
 
   ctx.drawImage(image, 0, 0, 1000, 1000) // Image Setings ( X , Y , Whidth , Height )
 
-  ctx.font = `${fontSize} ${fontStyle}` // Font Style
+  ctx.font = `${fontSize} ${fontStyle}` // Font Display Style
   var pragraphTextX = 500 // Text Horizontal Align
   ctx.textAlign = 'center' // Text Center
 
