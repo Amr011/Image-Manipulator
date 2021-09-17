@@ -6,7 +6,8 @@ const canvas = createCanvas(1000, 1000)
 const ctx = canvas.getContext('2d')
 
 // Load Image From Directory
-loadImage('./public/images/Template.png').then((image) => {
+const ImageSource = './public/images/Template.png'
+loadImage(ImageSource).then((image) => {
   // Font Configuration
   const fontStyle = 'AirArabia Normal'
   const fontSize = '54px'
